@@ -43,6 +43,24 @@ drupal develop:create:symlinks \
 --code-directory=/Users/username/drupal-console-code/
 ```
 
-Now you can do the required changes and start contributing, commit you changes, push code to your forked repositories and create Pull Request to the respective repositories.
+## Downloading additional Drupal Console language or packages
 
-Happy coding ...
+If you want to contribute translating Drupal Console to [Spanish](https://github.com/hechoendrupal/drupal-console-es) you should:
+
+1.- Download it on the drupal site by executing the following command.
+
+```
+composer require drupal/console-es
+```
+
+2.- Fork and clone the repo to your local directory.
+
+3.- Execute the `develop:create:symlinks` again, to create symlinks including the recently added package.
+
+This applies for additional languages and packages i.e [drupal/console-yaml](https://github.com/weknowinc/drupal-console-yaml).
+
+## Wrapping up
+
+Now you can do the required changes and start contributing, commit you changes, push code to your forked repositories and create a Pull Request to the respective repository.
+
+Happy coding ... thanks for contributing to Drupal Console.
